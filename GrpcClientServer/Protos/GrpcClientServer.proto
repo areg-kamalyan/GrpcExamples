@@ -1,12 +1,12 @@
 syntax = "proto3";
 
-option csharp_namespace = "GrpcInerServer";
+option csharp_namespace = "GrpcServer";
 
 
-package InnerStream;
+package GrpcClientServer;
 
 // The greeting service definition.
-service InnerStream {
+service MyStream {
   // Sends a greeting
   rpc SendData (StreamRequest) returns (stream StreamResponse);
 }

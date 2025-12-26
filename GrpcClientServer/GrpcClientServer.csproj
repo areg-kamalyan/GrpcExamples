@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Protobuf Include="Protos\InnerStream.proto" GrpcServices="Client" />
-	  <Protobuf Include="Protos\Stream.proto" GrpcServices="Server" />
+    <Protobuf Include="Protos\GrpcServer.proto" GrpcServices="Client" />
+	  <Protobuf Include="Protos\GrpcClientServer.proto" GrpcServices="Server" />
   </ItemGroup>
 
   <ItemGroup>
